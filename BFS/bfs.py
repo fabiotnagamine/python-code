@@ -32,8 +32,6 @@ def bfs(graph, start):
    return visitado
 
 
-bfs(graph, "Arad")
-
 
 def bfs_caminho(graph, start, goal):
    queue = [(start, [start])]
